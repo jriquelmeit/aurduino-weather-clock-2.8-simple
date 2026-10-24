@@ -44,5 +44,5 @@
 // INTERVALOS DE ACTUALIZACIÓN
 // ==========================================
 #define CLOCK_REFRESH_INTERVAL_MS    1000UL                 // 1 segundo
-#define WEATHER_REFRESH_INTERVAL_MS  (15UL * 60UL * 1000UL) // 15 minutos
+#define WEATHER_REFRESH_INTERVAL_MS  (30UL * 60UL * 1000UL) // 30 minutos
 #define WEATHER_RETRY_INTERVAL_MS    (60UL * 1000UL)        // 1 minuto si falla

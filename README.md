@@ -119,7 +119,7 @@ Diseñado con un enfoque minimalista de **pantalla única**, priorizando el relo
   - Temperaturas extremas (Máxima y Mínima).
   - Lógica automática: muestra milímetros de lluvia si se esperan precipitaciones (> 0.05 mm), o conmuta a Índice UV Máximo si el día es seco.
 - **Barra de Segundos Fluida:** Indicador de avance de 0 a 59 segundos sin parpadeo.
-- **Sin Parpadeo (*Flicker-Free*):** Redibujado selectivo por zonas: el reloj solo actualiza al cambiar el minuto y los datos meteorológicos cada 15 minutos.
+- **Sin Parpadeo (*Flicker-Free*):** Redibujado selectivo por zonas: el reloj solo actualiza al cambiar el minuto y los datos meteorológicos cada 30 minutos.
 - **Sincronización Horaria Automática (NTP + Regla POSIX):** Ajuste automático de horario de verano e invierno (Chile Continental).
 - **API Gratuita Open-Meteo:** Sin necesidad de registrar API keys ni límites restrictivos.
 
